@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A5173AC28C5CDA70024950D /* AppListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5173AB28C5CDA70024950D /* AppListViewModel.swift */; };
+		5A5173AD28C5CDA70024950D /* AppListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5173AB28C5CDA70024950D /* AppListViewModel.swift */; };
+		5A5173AF28C5D0700024950D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5173AE28C5D0700024950D /* Constants.swift */; };
+		5A5173B028C5D0700024950D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5173AE28C5D0700024950D /* Constants.swift */; };
+		5ADF9F5C28C5CB9C0050BDC1 /* AppStoreConnect-Swift-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = 5ADF9F5B28C5CB9C0050BDC1 /* AppStoreConnect-Swift-SDK */; };
 		848494CA287C8E5D008805C2 /* AppStoreConnectAPIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848494BA287C8E5C008805C2 /* AppStoreConnectAPIExampleApp.swift */; };
 		848494CB287C8E5D008805C2 /* AppStoreConnectAPIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848494BA287C8E5C008805C2 /* AppStoreConnectAPIExampleApp.swift */; };
 		848494CC287C8E5D008805C2 /* AppsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848494BB287C8E5C008805C2 /* AppsListView.swift */; };
 		848494CD287C8E5D008805C2 /* AppsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848494BB287C8E5C008805C2 /* AppsListView.swift */; };
-		848494CE287C8E5D008805C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848494BC287C8E5D008805C2 /* Assets.xcassets */; };
-		848494CF287C8E5D008805C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848494BC287C8E5D008805C2 /* Assets.xcassets */; };
 		848494DE287C8FAB008805C2 /* AppStoreConnect-Swift-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = 848494DD287C8FAB008805C2 /* AppStoreConnect-Swift-SDK */; };
 		848494E0287C8FAE008805C2 /* AppStoreConnect-Swift-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = 848494DF287C8FAE008805C2 /* AppStoreConnect-Swift-SDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A5173AB28C5CDA70024950D /* AppListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListViewModel.swift; sourceTree = "<group>"; };
+		5A5173AE28C5D0700024950D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8412DA70287D5A3D00E211DF /* appstoreconnect-swift-sdk */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "appstoreconnect-swift-sdk"; path = ..; sourceTree = "<group>"; };
 		848494BA287C8E5C008805C2 /* AppStoreConnectAPIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreConnectAPIExampleApp.swift; sourceTree = "<group>"; };
 		848494BB287C8E5C008805C2 /* AppsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsListView.swift; sourceTree = "<group>"; };
-		848494BC287C8E5D008805C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848494C1287C8E5D008805C2 /* AppStoreConnectAPIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreConnectAPIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848494C7287C8E5D008805C2 /* AppStoreConnectAPIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreConnectAPIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848494C9287C8E5D008805C2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
@@ -32,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADF9F5C28C5CB9C0050BDC1 /* AppStoreConnect-Swift-SDK in Frameworks */,
 				848494DE287C8FAB008805C2 /* AppStoreConnect-Swift-SDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +68,8 @@
 			children = (
 				848494BA287C8E5C008805C2 /* AppStoreConnectAPIExampleApp.swift */,
 				848494BB287C8E5C008805C2 /* AppsListView.swift */,
-				848494BC287C8E5D008805C2 /* Assets.xcassets */,
+				5A5173AB28C5CDA70024950D /* AppListViewModel.swift */,
+				5A5173AE28C5D0700024950D /* Constants.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -110,6 +116,7 @@
 			name = "AppStoreConnectAPIExample (iOS)";
 			packageProductDependencies = (
 				848494DD287C8FAB008805C2 /* AppStoreConnect-Swift-SDK */,
+				5ADF9F5B28C5CB9C0050BDC1 /* AppStoreConnect-Swift-SDK */,
 			);
 			productName = "AppStoreConnectAPIExample (iOS)";
 			productReference = 848494C1287C8E5D008805C2 /* AppStoreConnectAPIExample.app */;
@@ -162,6 +169,9 @@
 				Base,
 			);
 			mainGroup = 848494B4287C8E5C008805C2;
+			packageReferences = (
+				5ADF9F5A28C5CB9C0050BDC1 /* XCRemoteSwiftPackageReference "appstoreconnect-swift-sdk" */,
+			);
 			productRefGroup = 848494C2287C8E5D008805C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -177,7 +187,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848494CE287C8E5D008805C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +194,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848494CF287C8E5D008805C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +204,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5173AC28C5CDA70024950D /* AppListViewModel.swift in Sources */,
 				848494CC287C8E5D008805C2 /* AppsListView.swift in Sources */,
 				848494CA287C8E5D008805C2 /* AppStoreConnectAPIExampleApp.swift in Sources */,
+				5A5173AF28C5D0700024950D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5173AD28C5CDA70024950D /* AppListViewModel.swift in Sources */,
 				848494CD287C8E5D008805C2 /* AppsListView.swift in Sources */,
 				848494CB287C8E5D008805C2 /* AppStoreConnectAPIExampleApp.swift in Sources */,
+				5A5173B028C5D0700024950D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +483,23 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		5ADF9F5A28C5CB9C0050BDC1 /* XCRemoteSwiftPackageReference "appstoreconnect-swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marcusziade/appstoreconnect-swift-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		5ADF9F5B28C5CB9C0050BDC1 /* AppStoreConnect-Swift-SDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5ADF9F5A28C5CB9C0050BDC1 /* XCRemoteSwiftPackageReference "appstoreconnect-swift-sdk" */;
+			productName = "AppStoreConnect-Swift-SDK";
+		};
 		848494DD287C8FAB008805C2 /* AppStoreConnect-Swift-SDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = "AppStoreConnect-Swift-SDK";
